@@ -14,6 +14,6 @@ public interface SortType extends EfficiencyType {
 	 * @param arrayToSort the array which is to be sorted
 	 * @return the sorted array of integers. 
 	 */
-	public int[] sort(int[] arrayToSort);
+	public Integer[] sort(Integer[] arrayToSort);
 
 }

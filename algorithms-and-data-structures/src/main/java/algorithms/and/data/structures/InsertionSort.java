@@ -18,7 +18,7 @@ public class InsertionSort extends AbstractSort {
 		return constant * (numberOfIterations ^ 2);
 	}
 
-	public int[] sort(int array[]) {
+	public Integer[] sort(Integer array[]) {
         int n = array.length;
         for (int j = 1; j < n; j++) {
             int key = array[j];

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="examples.TestChapter1">
+      <class name="algorithms.and.data.structures.TestInsertionSort">
         <methods>
-          <include name="test"/>
+          <include name="test" invocation-numbers="1"/>
         </methods>
-      </class> <!-- examples.TestChapter1 -->
+      </class> <!-- algorithms.and.data.structures.TestInsertionSort -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

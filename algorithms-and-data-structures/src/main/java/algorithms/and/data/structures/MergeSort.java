@@ -14,7 +14,7 @@ public class MergeSort extends AbstractSort {
 		return constant * numberOfIterations * Math.log(numberOfIterations);
 	}
 
-	public int[] sort(int[] arrayToSort) {
+	public Integer[] sort(Integer[] arrayToSort) {
 		throw new UnsupportedOperationException("Yet to be implemented");
 	}
 

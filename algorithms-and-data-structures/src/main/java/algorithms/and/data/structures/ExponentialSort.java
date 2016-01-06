@@ -14,7 +14,7 @@ public class ExponentialSort extends AbstractSort {
 		return Math.pow(constant, numberOfIterations);
 	}
 
-	public int[] sort(int[] arrayToSort) {
+	public Integer[] sort(Integer[] arrayToSort) {
 		throw new UnsupportedOperationException("Yet to be implemented");
 	}
 
