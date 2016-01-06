@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56" started-at="2016-01-06T14:51:21Z" finished-at="2016-01-06T14:51:22Z">
+  <suite name="Default suite" duration-ms="57" started-at="2016-01-06T15:16:15Z" finished-at="2016-01-06T15:16:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56" started-at="2016-01-06T14:51:21Z" finished-at="2016-01-06T14:51:22Z">
+    <test name="Default test" duration-ms="57" started-at="2016-01-06T15:16:15Z" finished-at="2016-01-06T15:16:15Z">
       <class name="algorithms.and.data.structures.TestInsertionSort">
-        <test-method status="PASS" signature="test([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="test" duration-ms="40" started-at="2016-01-06T06:51:21Z" data-provider="test" finished-at="2016-01-06T06:51:22Z">
+        <test-method status="PASS" signature="test([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="test" duration-ms="42" started-at="2016-01-06T07:16:15Z" data-provider="test" finished-at="2016-01-06T07:16:15Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="test" duration-ms="1" started-at="2016-01-06T06:51:22Z" data-provider="test" finished-at="2016-01-06T06:51:22Z">
+        <test-method status="PASS" signature="test([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="test" duration-ms="1" started-at="2016-01-06T07:16:15Z" data-provider="test" finished-at="2016-01-06T07:16:15Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="testDecreasingOrder([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="testDecreasingOrder" duration-ms="0" started-at="2016-01-06T06:51:22Z" data-provider="testDesc" finished-at="2016-01-06T06:51:22Z">
+        <test-method status="PASS" signature="testDecreasingOrder([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="testDecreasingOrder" duration-ms="1" started-at="2016-01-06T07:16:15Z" data-provider="testDesc" finished-at="2016-01-06T07:16:15Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDecreasingOrder -->
-        <test-method status="PASS" signature="testDecreasingOrder([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="testDecreasingOrder" duration-ms="1" started-at="2016-01-06T06:51:22Z" data-provider="testDesc" finished-at="2016-01-06T06:51:22Z">
+        <test-method status="PASS" signature="testDecreasingOrder([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="testDecreasingOrder" duration-ms="0" started-at="2016-01-06T07:16:15Z" data-provider="testDesc" finished-at="2016-01-06T07:16:15Z">
           <params>
             <param index="0">
               <value>

@@ -1,5 +1,6 @@
 package algorithms.and.data.structures;
 
+import static algorithms.and.data.structures.DescendingComparator.newDescendingcomparator;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.testng.annotations.DataProvider;
@@ -36,7 +37,7 @@ public class TestInsertionSort {
 	public void testDecreasingOrder(Integer[] arrayToSort, Integer[] expected) {
 		Integer[] sortedArray = InsertionSort.construct().desc().sort(arrayToSort);
 		
-		assertThat(sortedArray).containsExactly(expected);
+		assertThat(sortedArray).isSortedAccordingTo(newDescendingcomparator()).containsExactly(expected);
 	}
 
 }
