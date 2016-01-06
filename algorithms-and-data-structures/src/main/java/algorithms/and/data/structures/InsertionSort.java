@@ -1,5 +1,9 @@
 package algorithms.and.data.structures;
 
+/**
+ * Implementation of insertions sort algorithm 
+ * @author Aidan
+ */
 public class InsertionSort extends AbstractSort {
 
 	private Double constant;
