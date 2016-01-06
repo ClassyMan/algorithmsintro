@@ -2,6 +2,8 @@ package algorithms.and.data.structures;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import javax.print.attribute.standard.MediaSize.ISO;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -24,21 +26,17 @@ public class TestInsertionSort {
 	 */
 	@Test(dataProvider = "test")
 	public void test(Integer[] arrayToSort, Integer[] expected) {
-		InsertionSort insertionSort = new InsertionSort(null);
-		
-		Integer[] sortedArray = insertionSort.sort(arrayToSort);
-		
+		Integer[] sortedArray = InsertionSort.construct().sort(arrayToSort);
+
 		assertThat(sortedArray).isSorted().containsExactly(expected);
 	}
 	
 	/**
-	 * Tests that the {@link InsertionSort} can actually sort an array correctly. 
+	 * Tests that the {@link InsertionSort} can actually sort an array correctly when we specify descending order. 
 	 */
 	@Test(dataProvider = "testDesc")
 	public void testDecreasingOrder(Integer[] arrayToSort, Integer[] expected) {
-		InsertionSort insertionSort = new InsertionSort(null);
-		
-		Integer[] sortedArray = insertionSort.desc().sort(arrayToSort);
+		Integer[] sortedArray = InsertionSort.construct().desc().sort(arrayToSort);
 		
 		assertThat(sortedArray).containsExactly(expected);
 	}

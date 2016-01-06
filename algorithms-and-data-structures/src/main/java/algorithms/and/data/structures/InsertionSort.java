@@ -12,6 +12,10 @@ public class InsertionSort extends AbstractSort {
 		super(constant);
 	}
 
+	public static InsertionSort construct() {
+		return new InsertionSort(null);
+	}
+	
 	public static InsertionSort construct(Double constant) {
 		return new InsertionSort(constant);
 	}
