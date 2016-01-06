@@ -7,7 +7,7 @@ package algorithms.and.data.structures;
 public class InsertionSort extends AbstractSort {
 
 	public InsertionSort(Double constant) {
-		this.constant = constant;
+		super(constant);
 	}
 
 	public static InsertionSort construct(Double constant) {
