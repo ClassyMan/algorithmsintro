@@ -1,9 +1,12 @@
 package Exercise1_2_1;
 
-import fawf.GraphDisplayer;
-import fawf.InsertionSort;
-import fawf.MergeSort;
+import algorithms.and.data.structures.GraphDisplayer;
+import algorithms.and.data.structures.InsertionSort;
+import algorithms.and.data.structures.MergeSort;
 
+/**
+ * @author Aidan
+ */
 public class Exercise1_2_1 {
 
 	
