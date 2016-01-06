@@ -9,6 +9,14 @@ package algorithms.and.data.structures;
  */
 public abstract class AbstractSort implements SortType, EfficiencyType {
 	
+	public AbstractSort() {
+		this.constant = 1d;
+	}
+	
+	public AbstractSort(Double constant) {
+		this.constant = constant;
+	}
+	
 	protected Double constant;
 	
 }
