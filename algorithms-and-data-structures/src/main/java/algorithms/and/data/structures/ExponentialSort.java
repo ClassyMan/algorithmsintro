@@ -2,8 +2,6 @@ package algorithms.and.data.structures;
 
 public class ExponentialSort extends AbstractSort {
 
-	private Double constant;
-
 	public ExponentialSort(Double constant) {
 		this.constant = constant;
 	}

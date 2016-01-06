@@ -7,4 +7,8 @@ package algorithms.and.data.structures;
  * 
  * @author Aidan
  */
-public abstract class AbstractSort implements SortType, EfficiencyType {}
+public abstract class AbstractSort implements SortType, EfficiencyType {
+	
+	protected Double constant;
+	
+}

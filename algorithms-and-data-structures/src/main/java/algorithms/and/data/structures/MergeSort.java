@@ -1,8 +1,6 @@
 package algorithms.and.data.structures;
 
 public class MergeSort extends AbstractSort {
-	
-	private Double constant;
 
 	public MergeSort(Double constant) {
 		this.constant = constant;
