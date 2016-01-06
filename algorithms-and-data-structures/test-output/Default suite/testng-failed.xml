@@ -5,7 +5,7 @@
     <classes>
       <class name="algorithms.and.data.structures.TestInsertionSort">
         <methods>
-          <include name="test" invocation-numbers="1"/>
+          <include name="testDecreasingOrder" invocation-numbers="1"/>
         </methods>
       </class> <!-- algorithms.and.data.structures.TestInsertionSort -->
     </classes>
