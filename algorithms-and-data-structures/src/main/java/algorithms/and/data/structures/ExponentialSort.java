@@ -18,4 +18,8 @@ public class ExponentialSort extends AbstractSort {
 		throw new UnsupportedOperationException("Yet to be implemented");
 	}
 
+	public ExponentialSort desc() {
+		this.decreasingOrder = true;
+		return this;
+	}
 }

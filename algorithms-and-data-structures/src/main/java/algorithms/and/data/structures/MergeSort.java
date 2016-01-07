@@ -5,7 +5,7 @@ public class MergeSort extends AbstractSort {
 	public MergeSort(Double constant) {
 		super(constant);
 	}
-	
+
 	public static MergeSort construct(Double constant) {
 		return new MergeSort(constant);
 	}
@@ -18,4 +18,11 @@ public class MergeSort extends AbstractSort {
 		throw new UnsupportedOperationException("Yet to be implemented");
 	}
 
+	/*
+	 * @see algorithms.and.data.structures.AbstractSort#desc()
+	 */
+	public MergeSort desc() {
+		this.decreasingOrder = true;
+		return this;
+	}
 }
