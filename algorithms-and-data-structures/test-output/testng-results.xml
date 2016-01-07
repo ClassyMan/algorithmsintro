@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51" started-at="2016-01-07T14:33:08Z" finished-at="2016-01-07T14:33:08Z">
+  <suite name="Default suite" duration-ms="54" started-at="2016-01-07T14:34:50Z" finished-at="2016-01-07T14:34:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51" started-at="2016-01-07T14:33:08Z" finished-at="2016-01-07T14:33:08Z">
+    <test name="Default test" duration-ms="54" started-at="2016-01-07T14:34:50Z" finished-at="2016-01-07T14:34:50Z">
       <class name="algorithms.and.data.structures.searching.TestBinaryMath">
-        <test-method status="PASS" signature="testAddition([Ljava.lang.Integer;, [Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.searching.TestBinaryMath@5f150435]" name="testAddition" duration-ms="37" started-at="2016-01-07T06:33:08Z" data-provider="testAdd" finished-at="2016-01-07T06:33:08Z">
+        <test-method status="PASS" signature="testAddition([Ljava.lang.Integer;, [Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.searching.TestBinaryMath@5f150435]" name="testAddition" duration-ms="41" started-at="2016-01-07T06:34:50Z" data-provider="testAdd" finished-at="2016-01-07T06:34:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@42d80b78]]>
+                <![CDATA[[Ljava.lang.Integer;@1bce4f0a]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@3bfdc050]]>
+                <![CDATA[[Ljava.lang.Integer;@5e3a8624]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@1bce4f0a]]>
+                <![CDATA[[Ljava.lang.Integer;@5c3bd550]]>
               </value>
             </param>
           </params>

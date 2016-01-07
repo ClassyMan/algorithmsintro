@@ -12,7 +12,7 @@ public class BinaryMath {
 	 * @param binaryNumber2 the second binary number
 	 * @return the addition of those two binary numbers
 	 */
-	public static int[] add(Integer[] binaryNumber1, Integer[] binaryNumber2) {
+	public static Integer[] add(Integer[] binaryNumber1, Integer[] binaryNumber2) {
 		
 		int[] result = new int[binaryNumber1.length + 1];
 
@@ -23,7 +23,16 @@ public class BinaryMath {
 				result[i + 1] = 1;
 			} 
 		}
-		return result;
+		return toBoxedPrimitives(result);
 	}
 	
+	
+	public static Integer[] toBoxedPrimitives(int[] intArray) {
+
+		Integer[] result = new Integer[intArray.length];
+		for (int i = 0; i < intArray.length; i++) {
+			result[i] = Integer.valueOf(intArray[i]);
+		}
+		return result;
+	}
 }
