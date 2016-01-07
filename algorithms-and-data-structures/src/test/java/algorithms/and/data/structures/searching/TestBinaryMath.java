@@ -21,7 +21,7 @@ public class TestBinaryMath {
 	 * @param binaryNumber2 the second binary number
 	 * @param expectedResult the result
 	 */
-	@Test(dataProvider = "testAdd")
+	@Test(dataProvider = "testAdd") 
 	public void testAddition(Integer[] binaryNumber1, Integer[] binaryNumber2, Integer[] expectedResult) {
 		
 		assertThat(BinaryMath.add(binaryNumber1, binaryNumber2))

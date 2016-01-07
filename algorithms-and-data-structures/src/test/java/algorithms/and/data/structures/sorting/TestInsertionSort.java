@@ -14,7 +14,7 @@ public class TestInsertionSort {
 	public static Object[][][] arrays(){
 		return new Integer[][][]{{{1, 5, 4, 7, 3, 5, 7, 3, 5, 6} , {1, 3, 3, 4, 5, 5, 5, 6, 7, 7}}, 
 						        {{31, 41, 59, 26, 41, 58}, {26, 31, 41, 41, 58, 59}}}; // Exercise 2.1-1
-	}
+	} 
 	
 	@DataProvider(name = "testDesc")
 	public static Object[][][] arraysDescending(){
