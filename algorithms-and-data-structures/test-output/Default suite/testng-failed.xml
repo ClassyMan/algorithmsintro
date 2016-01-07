@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="algorithms.and.data.structures.searching.TestLinearSearch">
+      <class name="algorithms.and.data.structures.searching.TestBinaryMath">
         <methods>
-          <include name="testSearch" invocation-numbers="0 1"/>
+          <include name="testAddition"/>
         </methods>
-      </class> <!-- algorithms.and.data.structures.searching.TestLinearSearch -->
+      </class> <!-- algorithms.and.data.structures.searching.TestBinaryMath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

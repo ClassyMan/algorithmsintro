@@ -1,57 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2016-01-07T13:41:49Z" finished-at="2016-01-07T13:41:49Z">
+  <suite name="Default suite" duration-ms="51" started-at="2016-01-07T14:33:08Z" finished-at="2016-01-07T14:33:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2016-01-07T13:41:49Z" finished-at="2016-01-07T13:41:49Z">
-      <class name="algorithms.and.data.structures.searching.TestLinearSearch">
-        <test-method status="PASS" signature="testNotFound(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testNotFound" duration-ms="35" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
+    <test name="Default test" duration-ms="51" started-at="2016-01-07T14:33:08Z" finished-at="2016-01-07T14:33:08Z">
+      <class name="algorithms.and.data.structures.searching.TestBinaryMath">
+        <test-method status="PASS" signature="testAddition([Ljava.lang.Integer;, [Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.searching.TestBinaryMath@5f150435]" name="testAddition" duration-ms="37" started-at="2016-01-07T06:33:08Z" data-provider="testAdd" finished-at="2016-01-07T06:33:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@49e4cb85]]>
+                <![CDATA[[Ljava.lang.Integer;@42d80b78]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@3bfdc050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@1bce4f0a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testNotFound" duration-ms="1" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@d8355a8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testSearch(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testSearch" duration-ms="4" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@26653222]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="testSearch(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testSearch" duration-ms="1" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@6a4f787b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearch -->
-      </class> <!-- algorithms.and.data.structures.searching.TestLinearSearch -->
+        </test-method> <!-- testAddition -->
+      </class> <!-- algorithms.and.data.structures.searching.TestBinaryMath -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
