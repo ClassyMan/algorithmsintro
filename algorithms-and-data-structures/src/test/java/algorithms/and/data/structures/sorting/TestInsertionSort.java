@@ -1,4 +1,4 @@
-package algorithms.and.data.structures;
+package algorithms.and.data.structures.sorting;
 
 import static algorithms.and.data.structures.DescendingComparator.newDescendingcomparator;
 import static org.assertj.core.api.Assertions.assertThat;

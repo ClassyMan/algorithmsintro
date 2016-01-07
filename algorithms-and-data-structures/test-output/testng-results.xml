@@ -2,76 +2,56 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57" started-at="2016-01-07T12:59:22Z" finished-at="2016-01-07T12:59:22Z">
+  <suite name="Default suite" duration-ms="53" started-at="2016-01-07T13:41:49Z" finished-at="2016-01-07T13:41:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57" started-at="2016-01-07T12:59:22Z" finished-at="2016-01-07T12:59:22Z">
-      <class name="algorithms.and.data.structures.TestInsertionSort">
-        <test-method status="PASS" signature="test([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="test" duration-ms="41" started-at="2016-01-07T04:59:22Z" data-provider="test" finished-at="2016-01-07T04:59:22Z">
+    <test name="Default test" duration-ms="53" started-at="2016-01-07T13:41:49Z" finished-at="2016-01-07T13:41:49Z">
+      <class name="algorithms.and.data.structures.searching.TestLinearSearch">
+        <test-method status="PASS" signature="testNotFound(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testNotFound" duration-ms="35" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@31ef45e3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Integer;@598067a5]]>
+                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@49e4cb85]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="test" duration-ms="0" started-at="2016-01-07T04:59:22Z" data-provider="test" finished-at="2016-01-07T04:59:22Z">
+        </test-method> <!-- testNotFound -->
+        <test-method status="PASS" signature="testNotFound(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testNotFound" duration-ms="1" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@3c0ecd4b]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Integer;@14bf9759]]>
+                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@d8355a8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="testDecreasingOrder([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="testDecreasingOrder" duration-ms="1" started-at="2016-01-07T04:59:22Z" data-provider="testDesc" finished-at="2016-01-07T04:59:22Z">
+        </test-method> <!-- testNotFound -->
+        <test-method status="PASS" signature="testSearch(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testSearch" duration-ms="4" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@5f341870]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Integer;@553f17c]]>
+                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@26653222]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDecreasingOrder -->
-        <test-method status="PASS" signature="testDecreasingOrder([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:algorithms.and.data.structures.TestInsertionSort@5f150435]" name="testDecreasingOrder" duration-ms="0" started-at="2016-01-07T04:59:22Z" data-provider="testDesc" finished-at="2016-01-07T04:59:22Z">
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(algorithms.and.data.structures.searching.TestSearchData)[pri:0, instance:algorithms.and.data.structures.searching.TestLinearSearch@5f150435]" name="testSearch" duration-ms="1" started-at="2016-01-07T05:41:49Z" data-provider="testSearch" finished-at="2016-01-07T05:41:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@4f7d0008]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Integer;@271053e1]]>
+                <![CDATA[algorithms.and.data.structures.searching.TestSearchData@6a4f787b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDecreasingOrder -->
-      </class> <!-- algorithms.and.data.structures.TestInsertionSort -->
+        </test-method> <!-- testSearch -->
+      </class> <!-- algorithms.and.data.structures.searching.TestLinearSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

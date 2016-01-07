@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="algorithms.and.data.structures.TestInsertionSort">
+      <class name="algorithms.and.data.structures.searching.TestLinearSearch">
         <methods>
-          <include name="testDecreasingOrder" invocation-numbers="0 1"/>
+          <include name="testSearch" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- algorithms.and.data.structures.TestInsertionSort -->
+      </class> <!-- algorithms.and.data.structures.searching.TestLinearSearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
