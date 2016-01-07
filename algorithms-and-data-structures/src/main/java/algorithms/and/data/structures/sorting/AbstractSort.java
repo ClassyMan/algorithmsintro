@@ -1,4 +1,7 @@
-package algorithms.and.data.structures;
+package algorithms.and.data.structures.sorting;
+
+import algorithms.and.data.structures.algorithms.EfficiencyType;
+import algorithms.and.data.structures.algorithms.SortType;
 
 /**
  * Abstract sorting class. We always want to implement the {@link SortType} and

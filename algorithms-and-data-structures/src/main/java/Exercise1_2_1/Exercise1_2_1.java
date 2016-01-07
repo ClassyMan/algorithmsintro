@@ -1,8 +1,8 @@
 package Exercise1_2_1;
 
-import algorithms.and.data.structures.GraphDisplayer;
-import algorithms.and.data.structures.InsertionSort;
-import algorithms.and.data.structures.MergeSort;
+import algorithms.and.data.structures.chart.GraphDisplayer;
+import algorithms.and.data.structures.sorting.InsertionSort;
+import algorithms.and.data.structures.sorting.MergeSort;
 
 /**
  * @author Aidan

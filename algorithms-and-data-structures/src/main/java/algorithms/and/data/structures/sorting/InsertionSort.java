@@ -1,4 +1,4 @@
-package algorithms.and.data.structures;
+package algorithms.and.data.structures.sorting;
 
 /**
  * Implementation of insertions sort algorithm

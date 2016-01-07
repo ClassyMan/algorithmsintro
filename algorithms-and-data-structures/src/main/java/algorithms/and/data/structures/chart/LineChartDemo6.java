@@ -1,4 +1,4 @@
-package algorithms.and.data.structures;
+package algorithms.and.data.structures.chart;
 /* ===========================================================
  * JFreeChart : a free chart library for the Java(tm) platform
  * ===========================================================

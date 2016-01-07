@@ -1,4 +1,4 @@
-package algorithms.and.data.structures;
+package algorithms.and.data.structures.chart;
 import java.awt.Color;
 import java.util.List;
 
@@ -16,6 +16,9 @@ import org.jfree.ui.ApplicationFrame;
 import org.jfree.ui.RefineryUtilities;
 
 import com.google.common.collect.Lists;
+
+import algorithms.and.data.structures.algorithms.EfficiencyType;
+import algorithms.and.data.structures.algorithms.SortType;
 
 /**
  * A simple demonstration application showing how to create a line chart using data from an

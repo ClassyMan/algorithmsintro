@@ -1,4 +1,4 @@
-package algorithms.and.data.structures;
+package algorithms.and.data.structures.algorithms;
 
 public interface EfficiencyType {
 

@@ -1,4 +1,4 @@
-package algorithms.and.data.structures;
+package algorithms.and.data.structures.sorting;
 
 public class MergeSort extends AbstractSort {
 
