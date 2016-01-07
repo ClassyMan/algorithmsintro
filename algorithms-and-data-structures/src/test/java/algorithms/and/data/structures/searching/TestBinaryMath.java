@@ -15,20 +15,18 @@ public class TestBinaryMath {
 		return new Integer[][][]{{{1,1,1,0}, {1,1,0,0}, {1, 1, 0, 1, 0}}};
 	}
 		
+	/**
+	 * Tests the addition of two binary numbers
+	 * 
+	 * @param binaryNumber1 the first binary number
+	 * @param binaryNumber2 the second binary number
+	 * @param expectedResult the result
+	 */
 	@Test(dataProvider = "testAdd")
 	public void testAddition(Integer[] binaryNumber1, Integer[] binaryNumber2, Integer[] expectedResult) {
 		
 		assertThat(BinaryMath.add(binaryNumber1, binaryNumber2))
-			.containsExactly(toPrimitive(expectedResult));
+			.containsExactly(expectedResult);
 	}
 	
-	
-	public static int[] toPrimitive(Integer[] IntegerArray) {
-
-		int[] result = new int[IntegerArray.length];
-		for (int i = 0; i < IntegerArray.length; i++) {
-			result[i] = IntegerArray[i].intValue();
-		}
-		return result;
-	}
 }
