@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import algorithms.and.data.structures.math.binary.BinaryMath;
 
 public class TestBinaryMath {
-
 	
 	@DataProvider(name = "testAdd")
 	public static Object[][] arrays(){
