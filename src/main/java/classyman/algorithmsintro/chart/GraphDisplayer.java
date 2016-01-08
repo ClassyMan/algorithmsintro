@@ -1,4 +1,4 @@
-package classyman.algorithmsintro.algorithms.chart;
+package classyman.algorithmsintro.chart;
 import java.awt.Color;
 import java.util.List;
 
