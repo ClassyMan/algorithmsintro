@@ -1,4 +1,4 @@
-package sorting;
+package classyman.algorithmsintro.sorting;
 
 /**
  * Implementation of insertions sort algorithm

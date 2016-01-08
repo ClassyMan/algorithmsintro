@@ -1,7 +1,7 @@
-package chart;
+package classyman.algorithmsintro.chart;
 
-import sorting.InsertionSort;
-import sorting.MergeSort;
+import classyman.algorithmsintro.sorting.InsertionSort;
+import classyman.algorithmsintro.sorting.MergeSort;
 
 /**
  * @author Aidan

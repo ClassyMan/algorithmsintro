@@ -1,4 +1,4 @@
-package sorting;
+package classyman.algorithmsintro.sorting;
 
 /**
  * Note that the efficiency of this algorithm is inferior to

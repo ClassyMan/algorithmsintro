@@ -1,4 +1,4 @@
-package sorting;
+package classyman.algorithmsintro.sorting;
 
 public class MergeSort extends AbstractSort {
 

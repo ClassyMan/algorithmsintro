@@ -1,4 +1,4 @@
-package searching;
+package classyman.algorithmsintro.searching;
 
 /**
  * 2.1-3 

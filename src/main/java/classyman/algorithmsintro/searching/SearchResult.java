@@ -1,4 +1,4 @@
-package searching;
+package classyman.algorithmsintro.searching;
 
 /**
  * A class which contains information on a search result from a search
