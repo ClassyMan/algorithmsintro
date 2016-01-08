@@ -1,4 +1,4 @@
-package classyman.algorithmsintro.algorithms;
+package algorithms;
 
 public interface EfficiencyType {
 

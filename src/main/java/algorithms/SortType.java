@@ -1,4 +1,4 @@
-package classyman.algorithmsintro.algorithms;
+package algorithms;
 
 /**
  * Interface defining a sort type.

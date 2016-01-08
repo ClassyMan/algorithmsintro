@@ -1,4 +1,4 @@
-package classyman.algorithmsintro.chart;
+package chart;
 import java.awt.Color;
 import java.util.List;
 
@@ -17,8 +17,8 @@ import org.jfree.ui.RefineryUtilities;
 
 import com.google.common.collect.Lists;
 
-import classyman.algorithmsintro.algorithms.EfficiencyType;
-import classyman.algorithmsintro.algorithms.SortType;
+import algorithms.EfficiencyType;
+import algorithms.SortType;
 
 /**
  * A simple demonstration application showing how to create a line chart using data from an

@@ -1,7 +1,7 @@
 package sorting;
 
-import classyman.algorithmsintro.algorithms.EfficiencyType;
-import classyman.algorithmsintro.algorithms.SortType;
+import algorithms.EfficiencyType;
+import algorithms.SortType;
 
 /**
  * Abstract sorting class. We always want to implement the {@link SortType} and

@@ -1,4 +1,4 @@
-package classyman.algorithmsintro.chart;
+package chart;
 
 import sorting.InsertionSort;
 import sorting.MergeSort;
