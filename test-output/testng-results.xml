@@ -1,16 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="256" started-at="2016-01-08T23:17:45Z" finished-at="2016-01-08T23:17:45Z">
+  <suite name="Default suite" duration-ms="375" started-at="2016-01-09T00:02:34Z" finished-at="2016-01-09T00:02:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="256" started-at="2016-01-08T23:17:45Z" finished-at="2016-01-08T23:17:45Z">
+    <test name="Default test" duration-ms="375" started-at="2016-01-09T00:02:34Z" finished-at="2016-01-09T00:02:35Z">
       <class name="classyman.algorithmsintro.sorting.TestMergeSort">
-        <test-method status="PASS" signature="testMergeOperation()[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@1ff8b8f]" name="testMergeOperation" duration-ms="209" started-at="2016-01-08T15:17:45Z" finished-at="2016-01-08T15:17:45Z">
+        <test-method status="PASS" signature="testMergeOperation([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeOperation" duration-ms="273" started-at="2016-01-08T16:02:34Z" data-provider="test" finished-at="2016-01-08T16:02:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@11053e1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@9838eb]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMergeOperation -->
+        <test-method status="FAIL" signature="testMergeSort([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeSort" duration-ms="41" started-at="2016-01-08T16:02:35Z" data-provider="test" finished-at="2016-01-08T16:02:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@e26948]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@8e7350]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expecting:
+  <[1, 2, 2, 2, 4, 5, 6]>
+to contain exactly (and in same order):
+  <[1, 2, 3, 4, 5, 5, 6]>
+but could not find the following elements:
+  <[3]>
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expecting:
+  <[1, 2, 2, 2, 4, 5, 6]>
+to contain exactly (and in same order):
+  <[1, 2, 3, 4, 5, 5, 6]>
+but could not find the following elements:
+  <[3]>
+
+	at classyman.algorithmsintro.sorting.TestMergeSort.testMergeSort(TestMergeSort.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSort -->
       </class> <!-- classyman.algorithmsintro.sorting.TestMergeSort -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

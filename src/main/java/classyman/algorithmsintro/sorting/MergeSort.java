@@ -14,10 +14,30 @@ public class MergeSort extends AbstractSort {
 		return constant * numberOfIterations * Math.log(numberOfIterations);
 	}
 
+	/* 
+	 * @see classyman.algorithmsintro.algorithms.SortType#sort(java.lang.Integer[])
+	 */
 	public Integer[] sort(Integer[] arrayToSort) {
-		throw new UnsupportedOperationException("Yet to be implemented");
+		return mergeSort(arrayToSort, 0, arrayToSort.length - 1);
 	}
 	
+	/**
+	 * Performs the iterative {@link MergeSort} operation
+	 * @param arrayToSort The array to sort. This is always the full array but parts of it might be sorted
+	 * @param startOfPartition
+	 * @param endOfPartition
+	 * @return The array to sort containing the subsequence that we have sorted
+	 */
+	private Integer[] mergeSort(Integer[] arrayToSort, int startOfPartition, int endOfPartition) {
+		if(startOfPartition<endOfPartition) {
+			int q = (startOfPartition+endOfPartition)/2;
+			arrayToSort = mergeSort(arrayToSort, startOfPartition, q);
+			arrayToSort = mergeSort(arrayToSort, q+1, endOfPartition);
+			arrayToSort = merge(arrayToSort, startOfPartition, q, endOfPartition);
+		}
+		return arrayToSort;
+	}
+
 	/**
 	 * This method merges two sorted arrays into one sorted array. 
 	 * 
