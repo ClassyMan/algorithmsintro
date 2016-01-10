@@ -5,7 +5,7 @@
     <classes>
       <class name="classyman.algorithmsintro.sorting.TestMergeSort">
         <methods>
-          <include name="testMergeSort" invocation-numbers="0"/>
+          <include name="testMergeSort" invocation-numbers="4"/>
         </methods>
       </class> <!-- classyman.algorithmsintro.sorting.TestMergeSort -->
     </classes>
