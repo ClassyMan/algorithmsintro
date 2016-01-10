@@ -7,23 +7,10 @@ package classyman.algorithmsintro.searching;
  * 
  * @author Aidan
  */
-public class LinearSearch {
-
-	private Integer[] input;
+public class LinearSearch extends AbstractSearch {
 
 	public static LinearSearch construct() {
 		return new LinearSearch();
-	}
-
-	/**
-	 * Specify the input array
-	 * 
-	 * @param input the input to specify
-	 * @return this, for method chaining
-	 */
-	public LinearSearch withInput(Integer[] input) {
-		this.input = input;
-		return this;
 	}
 
 	/**

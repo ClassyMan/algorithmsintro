@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="classyman.algorithmsintro.sorting.TestMergeSort">
+      <class name="classyman.algorithmsintro.searching.TestBinarySearch">
         <methods>
-          <include name="testSortRandom"/>
+          <include name="testNotFound" invocation-numbers="1"/>
         </methods>
-      </class> <!-- classyman.algorithmsintro.sorting.TestMergeSort -->
+      </class> <!-- classyman.algorithmsintro.searching.TestBinarySearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
