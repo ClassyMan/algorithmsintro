@@ -1,62 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="375" started-at="2016-01-09T00:02:34Z" finished-at="2016-01-09T00:02:35Z">
+  <suite name="Default suite" duration-ms="334" started-at="2016-01-10T00:12:34Z" finished-at="2016-01-10T00:12:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="375" started-at="2016-01-09T00:02:34Z" finished-at="2016-01-09T00:02:35Z">
+    <test name="Default test" duration-ms="334" started-at="2016-01-10T00:12:34Z" finished-at="2016-01-10T00:12:35Z">
       <class name="classyman.algorithmsintro.sorting.TestMergeSort">
-        <test-method status="PASS" signature="testMergeOperation([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeOperation" duration-ms="273" started-at="2016-01-08T16:02:34Z" data-provider="test" finished-at="2016-01-08T16:02:35Z">
+        <test-method status="PASS" signature="testMergeOperation([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeOperation" duration-ms="216" started-at="2016-01-09T16:12:34Z" data-provider="test" finished-at="2016-01-09T16:12:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@11053e1]]>
+                <![CDATA[[Ljava.lang.Integer;@49fd9b]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@9838eb]]>
+                <![CDATA[[Ljava.lang.Integer;@adede5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMergeOperation -->
-        <test-method status="FAIL" signature="testMergeSort([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeSort" duration-ms="41" started-at="2016-01-08T16:02:35Z" data-provider="test" finished-at="2016-01-08T16:02:35Z">
+        <test-method status="PASS" signature="testMergeSort([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeSort" duration-ms="3" started-at="2016-01-09T16:12:35Z" data-provider="testFullSort" finished-at="2016-01-09T16:12:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@e26948]]>
+                <![CDATA[[Ljava.lang.Integer;@1928643]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Integer;@8e7350]]>
+                <![CDATA[[Ljava.lang.Integer;@25a98f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSort -->
+        <test-method status="PASS" signature="testMergeSort([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeSort" duration-ms="3" started-at="2016-01-09T16:12:35Z" data-provider="testFullSort" finished-at="2016-01-09T16:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@1993335]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@322d26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSort -->
+        <test-method status="PASS" signature="testMergeSort([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeSort" duration-ms="5" started-at="2016-01-09T16:12:35Z" data-provider="testFullSort" finished-at="2016-01-09T16:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@12b07fd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@bfbc86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSort -->
+        <test-method status="PASS" signature="testMergeSort([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeSort" duration-ms="6" started-at="2016-01-09T16:12:35Z" data-provider="testFullSort" finished-at="2016-01-09T16:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@bf3bbf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@1d56113]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSort -->
+        <test-method status="FAIL" signature="testMergeSort([Ljava.lang.Integer;, [Ljava.lang.Integer;)[pri:0, instance:classyman.algorithmsintro.sorting.TestMergeSort@cbc42f]" name="testMergeSort" duration-ms="37" started-at="2016-01-09T16:12:35Z" data-provider="testFullSort" finished-at="2016-01-09T16:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@149dace]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Integer;@397ed7]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
-Expecting:
-  <[1, 2, 2, 2, 4, 5, 6]>
-to contain exactly (and in same order):
-  <[1, 2, 3, 4, 5, 5, 6]>
-but could not find the following elements:
-  <[3]>
+Actual and expected should have same size but actual size was:
+  <15>
+while expected size was:
+  <11>
+Actual was:
+  <[3, 3, 13, 42, 47, 55, 125, 232, 236, 444, 521, 2512, 4346, 12423, 73474]>
+Expected was:
+  <[3, 3, 13, 42, 47, 55, 125, 232, 236, 444, 521]>
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
-Expecting:
-  <[1, 2, 2, 2, 4, 5, 6]>
-to contain exactly (and in same order):
-  <[1, 2, 3, 4, 5, 5, 6]>
-but could not find the following elements:
-  <[3]>
+Actual and expected should have same size but actual size was:
+  <15>
+while expected size was:
+  <11>
+Actual was:
+  <[3, 3, 13, 42, 47, 55, 125, 232, 236, 444, 521, 2512, 4346, 12423, 73474]>
+Expected was:
+  <[3, 3, 13, 42, 47, 55, 125, 232, 236, 444, 521]>
 
-	at classyman.algorithmsintro.sorting.TestMergeSort.testMergeSort(TestMergeSort.java:27)
+	at classyman.algorithmsintro.sorting.TestMergeSort.testMergeSort(TestMergeSort.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

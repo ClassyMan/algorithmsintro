@@ -30,7 +30,11 @@ public class MergeSort extends AbstractSort {
 	 */
 	private Integer[] mergeSort(Integer[] arrayToSort, int startOfPartition, int endOfPartition) {
 		if(startOfPartition<endOfPartition) {
-			int q = (startOfPartition+endOfPartition)/2;
+			for(int x = startOfPartition; x<=endOfPartition; x++) {				
+				System.out.print(arrayToSort[x]);
+			}
+			System.out.println();
+			int q = Math.floorDiv((startOfPartition + endOfPartition),2);
 			arrayToSort = mergeSort(arrayToSort, startOfPartition, q);
 			arrayToSort = mergeSort(arrayToSort, q+1, endOfPartition);
 			arrayToSort = merge(arrayToSort, startOfPartition, q, endOfPartition);
@@ -68,7 +72,7 @@ public class MergeSort extends AbstractSort {
 		int i = 0;
 		int j = 0;
 		
-		for(int k = startOfArray1 ; k < endOfArray2; k++) {
+		for(int k = startOfArray1 ; k <= endOfArray2; k++) {
 			if (leftSide[i] <= rightSide[j]) {
 				arrayToSort[k] = leftSide[i];
 				i++;
@@ -87,5 +91,9 @@ public class MergeSort extends AbstractSort {
 	public MergeSort desc() {
 		this.decreasingOrder = true;
 		return this;
+	}
+
+	public static MergeSort construct() {
+		return new MergeSort(null);
 	}
 }
