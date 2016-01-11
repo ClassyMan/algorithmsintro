@@ -14,13 +14,18 @@ public class TestBinarySearch {
 	@DataProvider(name = "testSearch")
 	public static Object[][] arrays(){
 		return new TestSearchData[][]{{new TestSearchData(new Integer[]{1, 5, 4, 7, 3, 5, 7, 3, 5, 6}, 3, 2)},
-						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 26, 0)}};
+						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 26, 0)}, 
+						              {new TestSearchData(new Integer[]{11, 23, 59, 26, 44, 200, 300, 100, 214, 500, 400}, 400, 9)}};
 	}
 	
 	@DataProvider(name = "testSearchNotFound")
 	public static Object[][] notFound(){
-		return new TestSearchData[][]{{new TestSearchData(new Integer[]{1, 5, 4, 7, 3, 5, 7, 3, 5, 6}, 3525, 2)},
-						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 10, 0)}};
+		return new TestSearchData[][]{{new TestSearchData(new Integer[]{1, 5, 4, 7, 3, 5, 7, 3, 5, 6}, 3525, null)},
+						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 10, null)}, 
+						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 45, null)},
+						              {new TestSearchData(new Integer[]{11, 23, 59, 26, 44, 200, 300, 100, 214, 500, 400}, 401, null)}
+						              
+		};
 	}
 	
 	/**

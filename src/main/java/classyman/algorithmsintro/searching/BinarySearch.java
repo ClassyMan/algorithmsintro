@@ -43,7 +43,7 @@ public class BinarySearch extends AbstractSearch {
 		if (elementToFind < comparisonElement) {
 			return searchIteration(elementToFind, Math.floorDiv(searchPosition,2));
 		} else if (elementToFind > comparisonElement) {
-			return searchIteration(elementToFind, searchPosition + Math.floorDiv(searchPosition,2));
+			return searchIteration(elementToFind, searchPosition + Math.floorDiv((input.length-1 - searchPosition), 2));
 		} else {
 			return new SearchResult(comparisonElement, searchPosition);
 		}
