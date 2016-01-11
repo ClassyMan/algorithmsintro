@@ -20,10 +20,12 @@ public class TestBinarySearch {
 	
 	@DataProvider(name = "testSearchNotFound")
 	public static Object[][] notFound(){
-		return new TestSearchData[][]{{new TestSearchData(new Integer[]{1, 5, 4, 7, 3, 5, 7, 3, 5, 6}, 3525, null)},
-						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 10, null)}, 
-						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 45, null)},
-						              {new TestSearchData(new Integer[]{11, 23, 59, 26, 44, 200, 300, 100, 214, 500, 400}, 401, null)}
+		return new TestSearchData[][]{{new TestSearchData(new Integer[]{1, 5, 4, 7, 3, 5, 7, 3, 5, 6}, 3525, 9).outsideRange()},
+			                          {new TestSearchData(new Integer[]{10, 10, 10, 10, 10, 10}, 1, 0).outsideRange()}, 
+			                          {new TestSearchData(new Integer[]{1, 1, 1, 1, 1, 1}, 10, 5).outsideRange()}, 
+						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 10, 0).outsideRange()}, 
+						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 45, 3)},
+						              {new TestSearchData(new Integer[]{11, 23, 59, 26, 44, 200, 300, 100, 214, 500, 400}, 401, 9)}
 						              
 		};
 	}
@@ -46,6 +48,9 @@ public class TestBinarySearch {
 	@Test(dataProvider = "testSearchNotFound")
 	public void testNotFound(TestSearchData testSearchData) {
 		SearchResult searchResult = BinarySearch.construct().withInput(testSearchData.input).find(testSearchData.elementToFind);
-		assertThat(searchResult).isNull();
+		assertThat(searchResult).isNotNull();
+		assertThat(searchResult.result).isEqualTo(null);
+		assertThat(searchResult.positionInArray).isEqualTo(testSearchData.expectedPosition);
+		assertThat(searchResult.isOutsideOfRange()).isEqualTo(testSearchData.isOutsideRange());
 	}
 }

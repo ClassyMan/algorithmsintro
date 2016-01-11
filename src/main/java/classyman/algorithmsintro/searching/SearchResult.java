@@ -18,10 +18,24 @@ public class SearchResult {
 	public Integer positionInArray;
 
 	/**
+	 * Denotes whether the result we are looking for is outside of the range or not
+	 */
+	private boolean outsideRange;
+
+	/**
 	 * construct a search result
 	 */
 	public SearchResult(Integer result, Integer positionInArray) {
 		this.result = result;
 		this.positionInArray = positionInArray;
+	}
+
+	public SearchResult outsideRange() {
+		this.outsideRange = true;
+		return this;
+	}
+	
+	public boolean isOutsideOfRange() {
+		return outsideRange;
 	}
 }
