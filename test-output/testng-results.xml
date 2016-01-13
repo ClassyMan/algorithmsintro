@@ -2,78 +2,78 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="294" started-at="2016-01-11T01:46:31Z" finished-at="2016-01-11T01:46:31Z">
+  <suite name="Default suite" duration-ms="259" started-at="2016-01-13T02:56:59Z" finished-at="2016-01-13T02:57:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="294" started-at="2016-01-11T01:46:31Z" finished-at="2016-01-11T01:46:31Z">
-      <class name="classyman.algorithmsintro.searching.TestBinarySearch">
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@15f2bb7]" name="testNotFound" duration-ms="211" started-at="2016-01-10T17:46:31Z" data-provider="testSearchNotFound" finished-at="2016-01-10T17:46:31Z">
+    <test name="Default test" duration-ms="259" started-at="2016-01-13T02:56:59Z" finished-at="2016-01-13T02:57:00Z">
+      <class name="examples_2.TestExample_2_3_7">
+        <test-method status="PASS" signature="testExample(examples_2.ExampleTestData_2_3_7)[pri:0, instance:examples_2.TestExample_2_3_7@cbc42f]" name="testExample" duration-ms="177" started-at="2016-01-12T18:56:59Z" data-provider="test" finished-at="2016-01-12T18:56:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[classyman.algorithmsintro.searching.TestSearchData@1684286]]>
+                <![CDATA[examples_2.ExampleTestData_2_3_7@133c8f8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@15f2bb7]" name="testNotFound" duration-ms="3" started-at="2016-01-10T17:46:31Z" data-provider="testSearchNotFound" finished-at="2016-01-10T17:46:31Z">
+        </test-method> <!-- testExample -->
+        <test-method status="PASS" signature="testExample(examples_2.ExampleTestData_2_3_7)[pri:0, instance:examples_2.TestExample_2_3_7@cbc42f]" name="testExample" duration-ms="2" started-at="2016-01-12T18:56:59Z" data-provider="test" finished-at="2016-01-12T18:57:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[classyman.algorithmsintro.searching.TestSearchData@1e88b3c]]>
+                <![CDATA[examples_2.ExampleTestData_2_3_7@11161c7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@15f2bb7]" name="testNotFound" duration-ms="3" started-at="2016-01-10T17:46:31Z" data-provider="testSearchNotFound" finished-at="2016-01-10T17:46:31Z">
+        </test-method> <!-- testExample -->
+        <test-method status="PASS" signature="testExample(examples_2.ExampleTestData_2_3_7)[pri:0, instance:examples_2.TestExample_2_3_7@cbc42f]" name="testExample" duration-ms="3" started-at="2016-01-12T18:57:00Z" data-provider="test" finished-at="2016-01-12T18:57:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[classyman.algorithmsintro.searching.TestSearchData@41eaa2]]>
+                <![CDATA[examples_2.ExampleTestData_2_3_7@19d1a19]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@15f2bb7]" name="testNotFound" duration-ms="2" started-at="2016-01-10T17:46:31Z" data-provider="testSearchNotFound" finished-at="2016-01-10T17:46:31Z">
+        </test-method> <!-- testExample -->
+        <test-method status="PASS" signature="testExample(examples_2.ExampleTestData_2_3_7)[pri:0, instance:examples_2.TestExample_2_3_7@cbc42f]" name="testExample" duration-ms="2" started-at="2016-01-12T18:57:00Z" data-provider="test" finished-at="2016-01-12T18:57:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[classyman.algorithmsintro.searching.TestSearchData@1baeedf]]>
+                <![CDATA[examples_2.ExampleTestData_2_3_7@67ae56]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@15f2bb7]" name="testNotFound" duration-ms="2" started-at="2016-01-10T17:46:31Z" data-provider="testSearchNotFound" finished-at="2016-01-10T17:46:31Z">
+        </test-method> <!-- testExample -->
+        <test-method status="PASS" signature="testExample(examples_2.ExampleTestData_2_3_7)[pri:0, instance:examples_2.TestExample_2_3_7@cbc42f]" name="testExample" duration-ms="2" started-at="2016-01-12T18:57:00Z" data-provider="test" finished-at="2016-01-12T18:57:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[classyman.algorithmsintro.searching.TestSearchData@14ba872]]>
+                <![CDATA[examples_2.ExampleTestData_2_3_7@1deb50e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@15f2bb7]" name="testNotFound" duration-ms="2" started-at="2016-01-10T17:46:31Z" data-provider="testSearchNotFound" finished-at="2016-01-10T17:46:31Z">
+        </test-method> <!-- testExample -->
+        <test-method status="PASS" signature="testExample(examples_2.ExampleTestData_2_3_7)[pri:0, instance:examples_2.TestExample_2_3_7@cbc42f]" name="testExample" duration-ms="14" started-at="2016-01-12T18:57:00Z" data-provider="test" finished-at="2016-01-12T18:57:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[classyman.algorithmsintro.searching.TestSearchData@1ef45e3]]>
+                <![CDATA[examples_2.ExampleTestData_2_3_7@17d0008]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNotFound -->
-      </class> <!-- classyman.algorithmsintro.searching.TestBinarySearch -->
+        </test-method> <!-- testExample -->
+      </class> <!-- examples_2.TestExample_2_3_7 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
