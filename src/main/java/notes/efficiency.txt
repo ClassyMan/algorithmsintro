@@ -27,3 +27,7 @@ There is a really good complexity chart here to visualize all this.
 
 http://bigocheatsheet.com/
 
+What is interesting and of note is that although n log(n) is generally quicker, 
+insertion sort's c1 is smaller than merge sort's c2. So for the same programming language, 
+operating system, cpu power yadda yadda, we're looking at a smaller constant for insertion 
+sort. Why is this?
