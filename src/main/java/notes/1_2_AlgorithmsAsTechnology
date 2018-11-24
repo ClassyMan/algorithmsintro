@@ -1,0 +1,24 @@
+The point that they're trying to make here is that even though computers nowadays are 
+incredibly fast, we should still care about algorithms and proving that they work well. 
+Why is this though? Surely if we have far more computing power than we need we shouldn't
+need to worry about pesky things like how efficient our algorithms are... right?
+
+WRONG SUCKA!!!
+
+* We need to know that our algorithms execute correctly and return instead of 
+  - Erroring out
+  - Getting stuck in an infinite loop 
+  - Giving us the wrong answer
+  
+We also obviously care about architecting a program correctly. 
+IF we obey things like SOLID design principles then we should have maintainable, readable, 
+extensible code. 
+
+SOLID
+
+- Single responsibility (Everything should have a single job and do it well)
+- Open closed principle (Things should be open for fixing but closed for adding new functionality)
+- Liskov substitution principle - Subtypes must be substitutable for their 
+  base types
+- Interface segregation principle - Just keep a lean API which doesnt have a bunch of yagni shit tacked on
+- Dependency inversion (depend upon abstractions) 
