@@ -22,3 +22,9 @@ SOLID
   base types
 - Interface segregation principle - Just keep a lean API which doesnt have a bunch of yagni shit tacked on
 - Dependency inversion (depend upon abstractions) 
+
+Also if we didn't care too much about our implementation in terms of performance then 
+we would just choose the easiest way to implement whatever functionality we are implementing
+
+Computing power might be intense nowadays but it is not infinite. So we should care about 
+and use resources wisely. 
