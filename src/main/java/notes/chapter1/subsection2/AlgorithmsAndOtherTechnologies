@@ -1,1 +1,13 @@
 Algorithms and other technologies
+
+The previous examples show us that we should think of algorithms as a technology. 
+
+Especially as they can be more potent in improving performance than actual hardware!
+
+The main point here is that algorithms are used basically anywhere you start using software. 
+
+- Want to sort ANYTHING?
+- Want to use anything other than machine language? You'll need a compiler, interpreter 
+  or assembler. Uh ooooh. 
+- Want to use hardware or networking? Yup
+ etc etc 
