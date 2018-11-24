@@ -1,0 +1,32 @@
+Efficiency_concrete_example
+
+Problem: Sort 10 million numbers
+ - Each number is an 8 byte integer
+ - 80 Megabytes for all the numbers
+
+Computer A: 
+- 10 billion instructions a second
+- Programming language: Machine code
+- Efficiency: 2n^2
+
+Computer B: 
+- 10 million instructions a second
+- Programming language: Some high level 
+  language with an inefficient compiler *shifty eyes* is this a dig at java lol?
+- Efficiency: 50n * log(n)
+
+Results: 
+
+To sort 10 million numbers: 
+
+Computer A: 
+
+2(10^7) instructions / 10^10 instructions per second = 
+
+20,000 seconds (More than 5.5 hours)
+
+Computer B: 
+
+50 * 10^7 lg(10^7) instructions / 10^7 instructions per second = 1163 seconds (< 20 minutes)
+
+Merge sort wins. 
