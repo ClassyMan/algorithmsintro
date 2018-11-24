@@ -1,0 +1,29 @@
+Efficiency
+
+Different algorithms can be devised to solve the same problems: 
+- Searching
+- Sorting
+
+etc etc 
+
+They differ wildly in their efficiency. 
+
+Differences can actually outweigh the technology in terms of both: 
+- Hardware
+- Programming language/version etc
+
+The first examples in chapter 2 compare 
+- Insertion sort
+- Merge sort 
+
+Efficiencies of these two algorithms: 
+
+- Insertion sort: c1 * n^2
+- Merge sort: c2 * n log(n)
+
+log(n) here is log with base 2. 
+
+There is a really good complexity chart here to visualize all this. 
+
+http://bigocheatsheet.com/
+
