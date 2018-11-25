@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="examples_2.TestExample_2_3_7">
+      <class name="classyman.algorithmsintro.searching.TestBinarySearch">
         <methods>
-          <include name="testExample" invocation-numbers="0"/>
+          <include name="testNotFound" invocation-numbers="4 5"/>
         </methods>
-      </class> <!-- examples_2.TestExample_2_3_7 -->
+      </class> <!-- classyman.algorithmsintro.searching.TestBinarySearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

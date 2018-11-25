@@ -2,7 +2,7 @@ package classyman.algorithmsintro.searching;
 
 /**
  * A class which contains information on a search result from a search
- * 
+ *
  * @author Aidan
  */
 public class SearchResult {
@@ -32,9 +32,10 @@ public class SearchResult {
 
 	public SearchResult outsideRange() {
 		this.outsideRange = true;
+		this.result = null;
 		return this;
 	}
-	
+
 	public boolean isOutsideOfRange() {
 		return outsideRange;
 	}

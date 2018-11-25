@@ -18,7 +18,7 @@ public class TestSearchData {
 		this.expectedPosition = expectedPosition;
 	}
 	
-	public TestSearchData outsideRange() {
+	public TestSearchData notFound() {
 		this.outsideRange = true;
 		return this;
 	}

@@ -1,0 +1,46 @@
+Efficiency
+
+Different algorithms can be devised to solve the same problems: 
+- Searching
+- Sorting
+
+etc etc 
+
+They differ wildly in their efficiency. 
+
+Differences can actually outweigh the technology in terms of both: 
+- Hardware
+- Programming language/version etc
+
+The first examples in chapter 2 compare 
+- Insertion sort
+- Merge sort 
+
+Efficiencies of these two algorithms: 
+
+- Insertion sort: c1 * n^2
+- Merge sort: c2 * n log(n)
+
+log(n) here is log with base 2. 
+
+There is a really good complexity chart here to visualize all this. 
+
+http://bigocheatsheet.com/
+
+What is interesting and of note is that although n log(n) is generally quicker, 
+insertion sort's c1 is smaller than merge sort's c2. So for the same programming language, 
+operating system, cpu power yadda yadda, we're looking at a smaller constant for insertion 
+sort. Why is this?
+
+Obviously the constants have far less effect on execution time than n. 
+
+It says that for example when n is 100 we have 
+- Insertion sort = c1 * 10000
+- Merge sort = c2 * 10
+
+And when n is roughly 1,000,000, n^2 is obviously gigantic whilst log(n) is like 20. 
+
+Edit: is this correct? Revise logarithms. 
+
+This basically means that there is a crossover point whereby no matter what the 
+different values of c1 and c2 are, merge sort always wins above a given threshold. 
