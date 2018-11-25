@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87" started-at="2018-11-25T20:26:13Z" finished-at="2018-11-25T20:26:13Z">
+  <suite name="Default suite" duration-ms="85" started-at="2018-11-25T20:55:09Z" finished-at="2018-11-25T20:55:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87" started-at="2018-11-25T20:26:13Z" finished-at="2018-11-25T20:26:13Z">
-      <class name="classyman.algorithmsintro.searching.TestBinarySearch">
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="57" started-at="2018-11-25T15:26:13Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:26:13Z">
+    <test name="Default test" duration-ms="85" started-at="2018-11-25T20:55:09Z" finished-at="2018-11-25T20:55:09Z">
+      <class name="classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch">
+        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="56" started-at="2018-11-25T15:55:09Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="1" started-at="2018-11-25T15:26:13Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="2" started-at="2018-11-25T15:55:09Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="2" started-at="2018-11-25T15:26:13Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="1" started-at="2018-11-25T15:55:09Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="1" started-at="2018-11-25T15:26:13Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="1" started-at="2018-11-25T15:55:09Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="1" started-at="2018-11-25T15:26:13Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="1" started-at="2018-11-25T15:55:09Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="3" started-at="2018-11-25T15:26:13Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testNotFound(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testNotFound" duration-ms="1" started-at="2018-11-25T15:55:09Z" data-provider="testSearchNotFound" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNotFound -->
-        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testSearch" duration-ms="0" started-at="2018-11-25T15:26:13Z" data-provider="testSearch" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testSearch" duration-ms="0" started-at="2018-11-25T15:55:09Z" data-provider="testSearch" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-11-25T15:26:13Z" data-provider="testSearch" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-11-25T15:55:09Z" data-provider="testSearch" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestBinarySearch@32e6e9c3]" name="testSearch" duration-ms="0" started-at="2018-11-25T15:26:13Z" data-provider="testSearch" finished-at="2018-11-25T15:26:13Z">
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-11-25T15:55:09Z" data-provider="testSearch" finished-at="2018-11-25T15:55:09Z">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-      </class> <!-- classyman.algorithmsintro.searching.TestBinarySearch -->
+      </class> <!-- classyman.algorithmsintro.searching.TestNonRecursiveBinarySearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

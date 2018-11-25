@@ -1,0 +1,11 @@
+Parts of a binary search algo: 
+
+Pre-processing: 
+
+Sorting before searching is always going to be more performant but for a bin search it is necessary. The algorithm depends on the order to determine the next search section. 
+
+Binary search: Divide search space in half after each comparison
+
+Post processing: 
+
+Determine viable candidates in remaining space

@@ -6,13 +6,9 @@ package classyman.algorithmsintro.searching;
  */
 public class BinarySearch extends AbstractSearch {
 
-	Integer[] previouslySearchedPositions = new Integer[]{0,0};
-
 	public static BinarySearch construct() {
 		return new BinarySearch();
 	}
-
-	int[] pastTwoMiddleIndexes = new int[2];
 
 	@Override
   public SearchResult find(Integer elementToFind) {
@@ -41,7 +37,5 @@ public class BinarySearch extends AbstractSearch {
     } else {
       return binarySearch(nums, mid + 1, end, target);
     }
-
-
   }
 }
