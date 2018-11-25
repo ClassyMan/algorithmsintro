@@ -5,7 +5,7 @@
     <classes>
       <class name="classyman.algorithmsintro.searching.TestBinarySearch">
         <methods>
-          <include name="testNotFound" invocation-numbers="4 5"/>
+          <include name="testSearch" invocation-numbers="0"/>
         </methods>
       </class> <!-- classyman.algorithmsintro.searching.TestBinarySearch -->
     </classes>

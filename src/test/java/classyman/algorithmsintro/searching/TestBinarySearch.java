@@ -13,7 +13,7 @@ public class TestBinarySearch {
 
 	@DataProvider(name = "testSearch")
 	public static Object[][] arrays(){
-		return new TestSearchData[][]{{new TestSearchData(new Integer[]{1, 5, 4, 7, 3, 5, 7, 3, 5, 6}, 3, 2)},
+		return new TestSearchData[][]{{new TestSearchData(new Integer[]{1, 5, 4, 7, 3, 5, 7, 5, 6}, 3, 1)},
 						              {new TestSearchData(new Integer[]{31, 41, 59, 26, 41, 58}, 26, 0)},
 						              {new TestSearchData(new Integer[]{11, 23, 59, 26, 44, 200, 300, 100, 214, 500, 400}, 400, 9)}};
 	}

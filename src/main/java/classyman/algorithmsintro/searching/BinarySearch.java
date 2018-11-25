@@ -17,12 +17,7 @@ public class BinarySearch extends AbstractSearch {
 	@Override
   public SearchResult find(Integer elementToFind) {
 
-      int rightIndex = input.length - 1;
-      int leftIndex = 0;
-
-      int middleIndex = rightIndex / 2;
-
-      int targetIndex = searchIteration(input, elementToFind, leftIndex, middleIndex, rightIndex);
+      int targetIndex = binarySearch(input, 0, input.length - 1, elementToFind);
 
       SearchResult result = new SearchResult(elementToFind, targetIndex);
 
@@ -31,25 +26,19 @@ public class BinarySearch extends AbstractSearch {
       return result;
   }
 
-  public int searchIteration(Integer[] nums, int target, int leftIndex, int middleIndex, int rightIndex) {
-      if (pastTwoMiddleIndexes[0] == middleIndex || pastTwoMiddleIndexes[1] == middleIndex) {
-        return -1; // not found
-      } else {
-        pastTwoMiddleIndexes[1] = pastTwoMiddleIndexes[0];
-        pastTwoMiddleIndexes[0] = middleIndex;
-      }
-      if (nums[middleIndex] == target) {
-          return middleIndex;
-      } else if (target < nums[middleIndex]) {
-          // go left shifting the scope of our search
-          rightIndex = middleIndex;
-          middleIndex = rightIndex / 2;
-          return searchIteration(nums, target, leftIndex, middleIndex, rightIndex);
-      } else { // basically this leaves us with (target > nums[middleIndex]) {
-          // go to the right shifting the scope of our search
-          leftIndex = middleIndex;
-          middleIndex = middleIndex + (rightIndex - middleIndex)/2;
-          return searchIteration(nums, target, leftIndex, middleIndex, rightIndex);
-      }
+  public int binarySearch(Integer[] nums, int start, int end, int target) {
+
+    if(start > end) return -1;
+
+    int mid = (start + end) /2;
+
+    if(nums[mid] == target)
+        return mid;
+
+    if(nums[mid] < target)
+        return binarySearch(nums,mid+1,end,target);
+    else
+        return binarySearch(nums,start,mid - 1,target);
+
   }
 }
