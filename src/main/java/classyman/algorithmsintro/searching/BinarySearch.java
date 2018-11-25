@@ -28,17 +28,20 @@ public class BinarySearch extends AbstractSearch {
 
   public int binarySearch(Integer[] nums, int start, int end, int target) {
 
-    if(start > end) return -1;
+    if (start > end)
+      return -1;
 
     int mid = (start + end) /2;
 
-    if(nums[mid] == target)
-        return mid;
+    if (nums[mid] == target)
+      return mid;
 
-    if(nums[mid] < target)
-        return binarySearch(nums, mid + 1, end, target);
-    else
-        return binarySearch(nums, start, mid - 1, target);
+    if (target < nums[mid]) {
+      return binarySearch(nums, start, mid - 1, target);
+    } else {
+      return binarySearch(nums, mid + 1, end, target);
+    }
+
 
   }
 }
