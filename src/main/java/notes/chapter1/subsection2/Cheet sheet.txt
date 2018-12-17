@@ -1,0 +1,18 @@
+Algorithm cheat sheet:
+
+Binary search:
+
+VTES:
+- Validate
+- Target
+- Evaluate
+- Shift
+
+Binary search to find square root.
+
+Tolerant i-VTES:
+- If 1 return 1
+- Validate input
+- Target
+- Evaluate FUNCTION (with tolerance)
+- Shift (with tolerance)

@@ -1,0 +1,31 @@
+Here the tactic, unsurprisingly is to use
+the same binary search as before but to search for f(n) instead of n where
+n is the target in a binary search algorithm and f(n) is a function of n in
+the square root example.
+
+We start by taking in x as our only parameter.
+
+We know that the square root exists somewhere between x and 0 as we are
+guaranteeing that x is a positive integer.
+
+Firstly. If target = 1, return 1.
+
+Then validate, just as we would with a regular bin search.
+
+Then target as we would normally, finding the mid as the average of start and
+end.
+
+Evaluation means mid*mid where the absolute value of mid squared - target is < 1
+This is because mid^2 is the reticle. If it is close to the target we want to
+know above or below, rounding to the nearest integer.
+
+Otherwise if target is < mid squared plus a small tolerance then we shift down
+(again with a tolerance). Else we shift up (again with a tolerance).
+
+If 1, return 1
+Validate
+Target
+Evaluate FUNCTION
+Shift with tolerance
+
+tolerant i-VTES 
