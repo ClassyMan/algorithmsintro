@@ -1,9 +1,9 @@
 package classyman.algorithmsintro.searching;
 
-public class SquareRootSearch extends AbstractSearch {
+public class SquareRootSearchNonRecursive extends AbstractSearch {
 
-  public static SquareRootSearch construct() {
-    return new SquareRootSearch();
+  public static SquareRootSearchNonRecursive construct() {
+    return new SquareRootSearchNonRecursive();
   }
 
   @Override

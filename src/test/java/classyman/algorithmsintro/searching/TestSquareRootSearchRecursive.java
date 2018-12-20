@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  * Tests Binary searching using the {@link BinarySearch} testing algorithm
  * @author Aidan
  */
-public class TestSquareRootSearch {
+public class TestSquareRootSearchRecursive {
 
   @DataProvider(name = "testSearch")
   public static Object[][] arrays(){
@@ -36,7 +36,7 @@ public class TestSquareRootSearch {
    */
   @Test(dataProvider = "testSearch")
   public void testSearch(TestSquareRootSearchData testSearchData) {
-      SearchResult searchResult = SquareRootSearch.construct().find(testSearchData.getTarget());
+      SearchResult searchResult = SquareRootSearchRecursive.construct().find(testSearchData.getTarget());
       assertThat(searchResult).isNotNull();
       assertThat(searchResult.result).isEqualTo(testSearchData.getAnswer());
   }
