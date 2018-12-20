@@ -9,7 +9,7 @@ public class SquareRootSearch extends AbstractSearch {
   @Override
   public SearchResult find(Integer targetToRoot) {
 
-    int root = search(0, targetToRoot, targetToRoot);
+    int root = findSquareRoot(targetToRoot);
 
     SearchResult result = new SquareRootSearchResult(root, null);
 
@@ -18,28 +18,30 @@ public class SquareRootSearch extends AbstractSearch {
     return result;
   }
 
-  public int search(int start, int end, int target) {
-
-    if (target == 1)
-      return 1;
-
-    if (start > end)
-      return -1;
-
-    int mid = (start + end) /2;
-
-    if (Math.abs(function(target, mid)) < 0.5)
-      return mid;
-
-    if (function(target, mid) < 0) {
-      return search(mid, end, target);
-    } else {
-      return search(start, mid, target);
+  /**
+   * Find the square root by figuring out whether the value of mid exists in the window
+   *
+   * mid ^ 2 >= x AND (mid + 1) ^ 2 <= x
+   *
+   * If it's off to the left, search left
+   * If it's off to the right, search right
+   *
+   * @param x the value to find the square root of
+   * @return the square root to the nearest integer
+   */
+  public int findSquareRoot(int x) {
+    if (x == 0) return 0;
+    int start = 1, end = x;
+    while (start < end) {
+      int mid = start + (end - start) / 2;
+      if (mid <= x / mid && mid + 1 > x / (mid + 1))// Found the result
+        return mid;
+      else if (mid > x / mid)// Keep checking the left part
+        end = mid;
+      else
+        start = mid + 1;// Keep checking the right part
     }
-  }
-
-  private int function(int target, int mid) {
-    return Math.abs(mid*mid) - target;
+    return start;
   }
 }
 

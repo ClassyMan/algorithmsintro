@@ -5,7 +5,7 @@
     <classes>
       <class name="classyman.algorithmsintro.searching.TestSquareRootSearch">
         <methods>
-          <include name="testSearch" invocation-numbers="0"/>
+          <include name="testSearch" invocation-numbers="10"/>
         </methods>
       </class> <!-- classyman.algorithmsintro.searching.TestSquareRootSearch -->
     </classes>

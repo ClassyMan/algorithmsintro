@@ -1,17 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76" started-at="2018-12-17T01:10:22Z" finished-at="2018-12-17T01:10:22Z">
+  <suite name="Default suite" duration-ms="126" started-at="2018-12-20T01:51:11Z" finished-at="2018-12-20T01:51:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76" started-at="2018-12-17T01:10:22Z" finished-at="2018-12-17T01:10:22Z">
+    <test name="Default test" duration-ms="126" started-at="2018-12-20T01:51:11Z" finished-at="2018-12-20T01:51:11Z">
       <class name="classyman.algorithmsintro.searching.TestSquareRootSearch">
-        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@2344fc66]" name="testSearch" duration-ms="65" started-at="2018-12-16T20:10:22Z" data-provider="testSearch" finished-at="2018-12-16T20:10:22Z">
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="81" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@91161c7]]>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@3bfdc050]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="2" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@27a8c74e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@1b68ddbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="2" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@59e5ddf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@e320068]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@76f2b07d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@6ee52dcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="2" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@2781e022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@4232c52b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@305fd85d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="3" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@11438d26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="2" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@7a1ebcd8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="testSearch(classyman.algorithmsintro.searching.TestSquareRootSearchData)[pri:0, instance:classyman.algorithmsintro.searching.TestSquareRootSearch@32e6e9c3]" name="testSearch" duration-ms="1" started-at="2018-12-19T20:51:11Z" data-provider="testSearch" finished-at="2018-12-19T20:51:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classyman.algorithmsintro.searching.TestSquareRootSearchData@528931cf]]>
               </value>
             </param>
           </params>
