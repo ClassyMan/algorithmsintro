@@ -26,23 +26,21 @@ public class SquareRootSearchRecursive extends AbstractSearch {
    * If it's off to the left, search left
    * If it's off to the right, search right
    *
-   * @param x the value to find the square root of
+   * @param targetToRoot the value to find the square root of
    * @return the square root to the nearest integer
    */
-  public int findSquareRoot(int x, int start, int end) {
-    if (x == 0) return 0;
+  public int findSquareRoot(int targetToRoot, int start, int end) {
+    if (targetToRoot == 0) return 0;
 
-    if (start < end) return start;
+    if (start < end) return -1; // not found
 
-    int mid = start + end / 2;
+    int mid = start + (end - start) / 2;
 
-    if (mid <= x / mid && mid + 1 > x / (mid + 1)) // Found the result
+    if (mid <= targetToRoot / mid && mid + 1 > targetToRoot / (mid + 1)) // Found the result
       return mid;
-    else if (mid > x / mid) // Keep checking the left part
-      findSquareRoot(x, start, mid);
+    else if (mid > targetToRoot / mid) // Keep checking the left part
+      return findSquareRoot(targetToRoot, start, mid);
     else
-      findSquareRoot(x, mid + 1, mid + 1); // Keep checking the right part
-
-    return start;
+      return findSquareRoot(targetToRoot, mid + 1, end); // Keep checking the right part
   }
 }
